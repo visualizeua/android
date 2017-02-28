@@ -1,3 +1,4 @@
+//working copy, do not edit
 var World = {
 	loaded: false,
 
