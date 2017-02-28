@@ -139,12 +139,12 @@ var World = {
 				cam: [TeamPicOverlay, LogoButton, ECLVideo, playButtonECL]
 			},
             onEnterFieldOfVision: function onEnterFieldOfVisionFn() {
-				MFFVideo.resume();
-				MFFVideo.playing = true;
+				ECLVideo.resume();
+				ECLVideo.playing = true;
 			},
 			onExitFieldOfVision: function onExitFieldOfVisionFn() {
-				MFFVideo.pause();
-				MFFVideo.playing = false;
+				ECLVideo.pause();
+				ECLVideo.playing = false;
 			}
 		});
 
