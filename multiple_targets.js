@@ -80,7 +80,7 @@ var World = {
 		});
 
 
-        var pageOne = new AR.Trackable2DObject(this.tracker, "LSSLTarget", {
+        var pageOne = new AR.Trackable2DObject(this.tracker, "LSSLtarget", {
 			drawables: {
 				cam: [TeamPicOverlay, LogoButton, LSSLVideo, playButtonLSSL]
 			},
@@ -134,7 +134,7 @@ var World = {
 		});
 
 
-        var pageTwo = new AR.Trackable2DObject(this.tracker, "ECLTracker", {
+        var pageTwo = new AR.Trackable2DObject(this.tracker, "ECLtarget", {
 			drawables: {
 				cam: [TeamPicOverlay, LogoButton, ECLVideo, playButtonECL]
 			},
@@ -171,7 +171,7 @@ var World = {
 	    MFFVideo.playing = true;
 
 
-        var pageThree = new AR.Trackable2DObject(this.tracker, "MFFTracker", {
+        var pageThree = new AR.Trackable2DObject(this.tracker, "MFFTarget", {
 			drawables: {
 				cam: [TeamPicOverlay, LogoButton, MFFVideo]
 			},
