@@ -15,7 +15,7 @@ var World = {
 
         //COMMON STUFF FOR ALL LABS
 
-		var imgLogo = new AR.ImageResource("assets/visualize.com.png");
+		var imgLogo = new AR.ImageResource("http://visualizeua.com/visualize.com.png");
 
 		var LogoButton = new AR.ImageDrawable(imgLogo, 0.12, {
                       enabled: true,
@@ -24,7 +24,7 @@ var World = {
                       onClick: function LogoButtonClicked() {
                            LSSLVideo.pause();
                            LogoButton.clicked = true;
-                           AR.context.openInBrowser("http://visualizeua.wixsite.com/website");
+                           AR.context.openInBrowser("http://visualizeua.wixsite.com/website",true);
                            return true;
                       },
         			offsetX: 0.32,
@@ -33,7 +33,7 @@ var World = {
         });
 
 
-		var imgTeamPic = new AR.ImageResource("assets/teamPic.JPG");
+		var imgTeamPic = new AR.ImageResource("http://visualizeua.com/teamPic.JPG");
 
         var TeamPicOverlay = new AR.ImageDrawable(imgTeamPic, .203, {
             offsetX: 0,
@@ -44,7 +44,7 @@ var World = {
 
         //LSSL STUFF
 
-        var LSSLVideo = new AR.VideoDrawable("assets/LSSLwikitude.mp4", 0.95, {
+        var LSSLVideo = new AR.VideoDrawable("http://visualizeua.com/LSSLwikitude1080.mp4", 0.95, {
 			offsetX: -0.15,
 			offsetY: +0.25,
 			isTransparent: true,
@@ -63,16 +63,16 @@ var World = {
 	    LSSLVideo.playing = true;
 
 
-		var playButtonImgLSSL = new AR.ImageResource("assets/LSSLvidStill.png");
+		var playButtonImgLSSL = new AR.ImageResource("http://visualizeua.com/LSSLvidStill.png");
 
 		var playButtonLSSL = new AR.ImageDrawable(playButtonImgLSSL, 0.17, {
 			enabled: true,
 			clicked: false,
-			zOrder: 2,
+			zOrder: 3,
 			onClick: function playButtonLSSLClicked() {
                 LSSLVideo.pause();
 				playButtonLSSL.clicked = true;
-    			AR.context.openInBrowser("https://www.youtube.com/watch?v=E2mYDaLCyv8");
+    			AR.context.openInBrowser("https://www.youtube.com/watch?v=E2mYDaLCyv8",true);
     			return true;
     		},
 			offsetY: -0.05,
@@ -98,7 +98,7 @@ var World = {
 
         //ECL STUFF
 
-        var ECLVideo = new AR.VideoDrawable("assets/ECLwikitudeTommy.mp4", 0.95, {
+        var ECLVideo = new AR.VideoDrawable("http://visualizeua.com/ECLwikitudeTommy1080.mp4", .95, {
 			offsetX: -0.15,
 			offsetY: +0.25,
 			isTransparent: true,
@@ -117,16 +117,16 @@ var World = {
 	    ECLVideo.playing = true;
 
 
-		var playButtonImgECL = new AR.ImageResource("assets/ECLvidStill.png");
+		var playButtonImgECL = new AR.ImageResource("http://visualizeua.com/ECLvidStill.png");
 
 		var playButtonECL = new AR.ImageDrawable(playButtonImgECL, 0.17, {
 			enabled: true,
 			clicked: false,
-			zOrder: 2,
+			zOrder: 3,
 			onClick: function playButtonECLClicked() {
                 ECLVideo.pause();
 				playButtonECL.clicked = true;
-    			AR.context.openInBrowser("https://youtu.be/P-XGwjT6Z6k");
+    			AR.context.openInBrowser("https://youtu.be/P-XGwjT6Z6k",true);
     			return true;
     		},
 			offsetY: -0.05,
@@ -152,7 +152,7 @@ var World = {
 
         //MFF STUFF
 
-        var MFFVideo = new AR.VideoDrawable("assets/MFFwikitudeTommy.mp4", 0.95, {
+        var MFFVideo = new AR.VideoDrawable("http://visualizeua.com/MFFwikitudeTommy1080.mp4", 0.95, {
 			offsetX: -0.15,
 			offsetY: +0.25,
 			isTransparent: true,
