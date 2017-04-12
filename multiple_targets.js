@@ -44,7 +44,7 @@ var World = {
 
         //LSSL STUFF
 
-        var LSSLVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/LSSL/LSSLwikitude1080shake.mp4", 0.95, {
+        var LSSLVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/LSSL/LSSLgreenscreen.mp4", 0.95, {
 			offsetX: -0.15,
 			offsetY: +0.25,
 			isTransparent: true,
