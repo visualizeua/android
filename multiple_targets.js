@@ -98,7 +98,7 @@ var World = {
 
         //ECL STUFF
 
-        var ECLVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/ECL/ECLwikitudeTommy.mp4", .95, {
+        var ECLVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/ECL/ECLgreenscreen.mp4", .95, {
 			offsetX: -0.15,
 			offsetY: +0.25,
 			isTransparent: true,
