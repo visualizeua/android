@@ -404,7 +404,7 @@ createOverlays: function createOverlaysFn() {
     
     //Astrobotics STUFF
     {
-        var AstroboticsVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/Astrobotics/Astroboticsgreenscreen1.mp4", .95, {
+        var AstroboticsVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/Astrobotics/Astroboticsgreenscreen.mp4", .95, {
                                                     offsetX: -0.15,
                                                     offsetY: +0.25,
                                                     isTransparent: true,
