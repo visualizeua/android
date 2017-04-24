@@ -7,7 +7,7 @@ var World = {
 
 	createOverlays: function createOverlaysFn() {
 
-        this.targetCollectionResource = new AR.TargetCollectionResource("assets/tracker.wtc", {
+        this.targetCollectionResource = new AR.TargetCollectionResource("assets/common/tracker.wtc", {
         });
         this.tracker = new AR.ImageTracker(this.targetCollectionResource, {
             onTargetsLoaded: this.worldLoaded
