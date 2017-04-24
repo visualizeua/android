@@ -7,7 +7,7 @@ init: function initFn() {
     
 createOverlays: function createOverlaysFn() {
     
-    this.targetCollectionResource = new AR.TargetCollectionResource("http://www.visualizeua.com/appAssets/common/trackermspaint.wtc", {
+    this.targetCollectionResource = new AR.TargetCollectionResource("http://www.visualizeua.com/appAssets/common/tracker.wtc", {
                                                                     });
     this.tracker = new AR.ImageTracker(this.targetCollectionResource, {
                                        onTargetsLoaded: this.worldLoaded
@@ -188,7 +188,7 @@ createOverlays: function createOverlaysFn() {
                                                  });
         
         
-        var pageThree = new AR.ImageTrackable(this.tracker, "MFFTarget2", {
+        var pageThree = new AR.ImageTrackable(this.tracker, "MFFTargetOld", {
                                               drawables: {
                                               cam: [TeamPicOverlay, LogoButton, MFFVideo, playButtonMFF]
                                               },
