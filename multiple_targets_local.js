@@ -514,7 +514,7 @@ var World = {
 	    BamaRacingVideo.playing = true;
 
 
-		var playButtonImgBamaRacing = new AR.ImageResource("http://visualizeua.com/appAssets/BamaRacing/BamaRacingvidStill.png");
+		var playButtonImgBamaRacing = new AR.ImageResource("assets/BamaRacing/BamaRacingvidStill.png");
 
 		var playButtonBamaRacing = new AR.ImageDrawable(playButtonImgBamaRacing, 0.17, {
 			enabled: true,
