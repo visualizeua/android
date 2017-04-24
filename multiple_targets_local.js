@@ -7,7 +7,7 @@ var World = {
 
 	createOverlays: function createOverlaysFn() {
 
-        this.targetCollectionResource = new AR.TargetCollectionResource("assets/trackermspaint.wtc", {
+        this.targetCollectionResource = new AR.TargetCollectionResource("assets/tracker.wtc", {
         });
         this.tracker = new AR.ImageTracker(this.targetCollectionResource, {
             onTargetsLoaded: this.worldLoaded
@@ -188,7 +188,7 @@ var World = {
 		});
 
 
-        var pageThree = new AR.ImageTrackable(this.tracker, "MFFTarget2", {
+        var pageThree = new AR.ImageTrackable(this.tracker, "MFFTargetOld", {
 			drawables: {
 				cam: [TeamPicOverlay, LogoButton, MFFVideo, playButtonMFF]
 			},
@@ -404,7 +404,7 @@ var World = {
 
         //Astrobotics STUFF
 {
-        var AstroboticsVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/Astrobotics/Astroboticsgreenscreen1.mp4", .95, {
+        var AstroboticsVideo = new AR.VideoDrawable("http://visualizeua.com/appAssets/Astrobotics/Astroboticsgreenscreen.mp4", .95, {
 			offsetX: -0.15,
 			offsetY: +0.25,
 			isTransparent: true,
